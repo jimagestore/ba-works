@@ -22,9 +22,9 @@ https://www.figma.com/prefer_full_link_instead_of_link_with_alias
 ### Screen/modal name 1
 **Element 1**
 - **Type:** Element type 
-- **Default label:** Label text (appear for button & inputs only) | **Required:** No/Yes (appear for inputs only)
-- **Default value:** Default value text (appear for inputs/selections only)
-- **Placeholder:** Default value text (appear for inputs/selections only)
+- **Label:** Label text (appear for button & inputs only) | **Required:** No/Yes (appear for inputs only) | **State:** Disable/Enable/Read-only/... (appear when needed only) | **Char limit:** xxx (appear when needed only)
+- **Default value:** Default value text (appear for inputs/selections only, when needed)
+- **Placeholder:** Default value text (appear for inputs/selections only, when needed)
 - **Options:** (appear for selections only)
   - Option name 1
   - Option name 2
