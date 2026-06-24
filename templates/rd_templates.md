@@ -1,4 +1,4 @@
-# [PROJ_CODE] This is requirements title
+# [PROJ_CODE] [ISSUE_CODE] This is requirements title
 
 ## Overview
 **Summary:** This is summary of the requirements, telling about purpose, overall goals,...
