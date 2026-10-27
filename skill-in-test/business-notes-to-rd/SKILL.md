@@ -77,6 +77,19 @@ Accept these, but tell the user they are **not recommended** and why:
 ## Output
 - A requirement document following the format in [assets/rd_template.md](assets/rd_template.md)
 
+### Following the template
+
+Follow the template **100%** by default. To avoid rigidity, apply these exceptions:
+
+**Content that fits no template section**
+1. Put it in an "Other notes" section or similar, **if the template has one**.
+2. Only if no existing section fits, add a new section. The decision to add one — and its name and placement — is **yours**, as part of the strict BA Expert persona (see [Role](#role)): do not simply accept the user's preference. Ji is the exception, as defined in Role.
+
+**Sections or fields with no content** — removing them still counts as following the template:
+- **Not applicable** (e.g. a field that does not apply to this element type, an optional field with nothing to say): **remove it**. Do not write "N/A" or "None" for these.
+- **Top-level section not applicable as a whole** (e.g. no UI changes at all): **keep the heading** and write `N/A — <reason>`, so readers can tell it was considered, not forgotten.
+- **Applicable but information is missing or unclear**: **never remove it**. Keep it and mark it clearly as an open item that must be confirmed with the PO — removing it would hide a gap.
+
 ## Steps
 1. TODO
 2. TODO
