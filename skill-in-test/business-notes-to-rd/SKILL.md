@@ -55,6 +55,11 @@ Business notes can come in many forms, including but not limited to:
 - Google links: Drive, Docs, Sheets, Slides, …
 - Slack conversation links
 
+### In-progress RD
+
+- At the start, unless the user has already provided one, **ask whether there is an in-progress RD** for this work, so the user does not forget to include it.
+- If an in-progress RD is provided, read it first and **continue from its remaining `[TBC]` markers and Open questions** — do not redo the analysis from scratch.
+
 ### Jira ticket — always required
 
 Every RD must be linked to a Jira ticket. If the input does not include one (content, link, or issue key):
