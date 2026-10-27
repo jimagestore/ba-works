@@ -82,13 +82,14 @@ Accept these, but tell the user they are **not recommended** and why:
 Follow the template **100%** by default. To avoid rigidity, apply these exceptions:
 
 **Content that fits no template section**
-1. Put it in an "Other notes" section or similar, **if the template has one**.
-2. Only if no existing section fits, add a new section. The decision to add one — and its name and placement — is **yours**, as part of the strict BA Expert persona (see [Role](#role)): do not simply accept the user's preference. Ji is the exception, as defined in Role.
+1. Put it in a "Notes" / "Other notes" section or similar, if the template has one (e.g. the **Note** list under each BR in the bundled template).
+2. Only if nothing fits, add a new section. The decision to add one — and its name and placement — is **yours**, as part of the strict BA Expert persona (see [Role](#role)): do not simply accept the user's preference. Ji is the exception, as defined in Role.
+3. A new section must keep the template's structure: same heading levels and formatting conventions, placed at the correct level — never break the parent–child hierarchy or the order of existing sections.
 
-**Sections or fields with no content** — removing them still counts as following the template:
-- **Not applicable** (e.g. a field that does not apply to this element type, an optional field with nothing to say): **remove it**. Do not write "N/A" or "None" for these.
-- **Top-level section not applicable as a whole** (e.g. no UI changes at all): **keep the heading** and write `N/A — <reason>`, so readers can tell it was considered, not forgotten.
-- **Applicable but information is missing or unclear**: **never remove it**. Keep it and mark it clearly as an open item that must be confirmed with the PO — removing it would hide a gap.
+**Sections or fields with no content**
+- **Conditional fields** — those the template annotates with a display condition (e.g. "appear for inputs only", "appear when needed only"): when the condition is not met, **remove** the field. Removing it still counts as following the template. Never copy the annotation itself into the output.
+- **All other sections and fields** (no display condition in the template): **keep** them. If there is genuinely nothing to state, write `N/A`; for a whole top-level section, write `N/A — <reason>`.
+- **Applicable but information is missing or unclear**: never remove it and never write `N/A`. Mark it clearly as an open item that must be confirmed with the PO.
 
 ## Steps
 1. TODO
