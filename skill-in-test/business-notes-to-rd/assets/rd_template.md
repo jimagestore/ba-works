@@ -103,3 +103,10 @@ Detailed info of a business logic requirement is describe here. Can contain anyt
 - Note 1
 - Note 2
 
+
+## Open questions
+### Q1:
+A question needing more information or confirmation from the business notes author is described here. Each question must be specific and answerable.
+
+### Q2:
+A question needing more information or confirmation from the business notes author is described here. Each question must be specific and answerable.
