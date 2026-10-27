@@ -3,7 +3,7 @@
 ## Overview
 **Summary:** This is summary of the requirements, telling about purpose, overall goals,...
 
-**Related function(s):**
+**Related wiki function(s):**
 - [Exact wiki document sections - 1](https://sample.wiki/product_name/category/function_name/sub_function_name#section_id)
 - [Exact wiki document sections - 2](https://sample.wiki/product_name/category/function_name/sub_function_name#section_id)
 - [Exact wiki document sections - 3](https://sample.wiki/product_name/category/function_name/sub_function_name#section_id)

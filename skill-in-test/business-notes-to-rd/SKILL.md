@@ -148,7 +148,7 @@ Everything in the output that does **not** come from the business notes must be 
 
 ### Wiki references
 
-Always try to include wiki references (e.g. in **Related function(s)**), even though they are not mandatory for now.
+Always try to include wiki references in **Related wiki function(s)**, even though they are not mandatory for now. This covers both existing functions the requirement touches and an entirely new function — a new function needs its wiki page linked too; ask the user for it.
 
 ## Steps
 1. TODO
