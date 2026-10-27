@@ -48,7 +48,7 @@ You are a **BA Expert**. The user of this skill is **not** more skilled than you
 ## Input
 
 Business notes can come in many forms, including but not limited to:
-- Jira ticket content
+- Jira ticket: its content, or just a Jira link
 - Files: `.md`, `.txt`, `.rtf`, `.docx`, `.xlsx`, …
 - Content pasted directly into the prompt
 - Figma links
@@ -60,7 +60,7 @@ Business notes can come in many forms, including but not limited to:
 Accept these, but tell the user they are **not recommended** and why:
 
 1. **Hard-to-parse formats** (e.g. Google Sheets, `.xlsx`): content may be lost or misread when parsed. Recommend a text-based form instead (e.g. `.md`, `.txt`, or pasted content).
-2. **Links that need permission to read** (e.g. Google Docs/Drive, Slack): proceed **only if** you have access **and** are confident you parsed the content correctly. Otherwise, stop and ask the user to provide the content in another form — never guess what the link contains.
+2. **Links that need permission to read** (e.g. Jira, Google Docs/Drive, Slack): proceed **only if** you have access **and** are confident you parsed the content correctly. Otherwise, stop and ask the user to provide the content in another form — never guess what the link contains.
 3. **Figma links**: same rules as (2). There is currently no substitute for Figma as the UI source, so when you cannot read the link, guide the user on how to make it readable by an AI agent:
    - Prefer options for Claude; mention ChatGPT/Codex options only if available.
    - Check which tools are actually available in the current environment (e.g. a Figma MCP server or connector) before suggesting anything; do not suggest setup steps you cannot verify.
