@@ -77,6 +77,13 @@ Accept these, but tell the user they are **not recommended** and why:
 ## Output
 - A requirement document following the format in [assets/rd_template.md](assets/rd_template.md)
 
+### Requirement code and title
+
+The RD title line in the template holds the requirement code(s) and the title (`# [PROJ_CODE] [ISSUE_CODE] This is requirements title`).
+
+- **Requirement code(s):** ask the user. Never invent them.
+- **Title:** if the input comes from Jira, use the Jira ticket's title. Otherwise, you may name it yourself — mark it `[BA-defined]` like any other content not derived from the business notes.
+
 ### Following the template
 
 Follow the template **100%** by default. To avoid rigidity, apply these exceptions:
