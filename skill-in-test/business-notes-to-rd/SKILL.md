@@ -48,19 +48,27 @@ You are a **BA Expert**. The user of this skill is **not** more skilled than you
 ## Input
 
 Business notes can come in many forms, including but not limited to:
-- Jira ticket: its content, or just a Jira link
+- Jira ticket: its content, a Jira link, or just the issue key (e.g. `ABC-123`)
 - Files: `.md`, `.txt`, `.rtf`, `.docx`, `.xlsx`, …
 - Content pasted directly into the prompt
 - Figma links
 - Google links: Drive, Docs, Sheets, Slides, …
 - Slack conversation links
 
+### Jira — solve, don't warn
+
+Jira links and issue keys need permission to read, but do **not** treat them as discouraged. Jira can be connected to Claude easily via a Jira MCP server or connector, so it is almost always solvable. Handle Jira **before** any other permission-gated source, including Figma:
+
+- If a Jira tool is available, fetch the issue directly.
+- If not, do **not** warn — guide the user to connect Jira to Claude, then fetch the issue.
+- An issue key alone (e.g. `ABC-123`) is valid input; resolve it through the Jira tool. Never guess its content from the key.
+
 ### Discouraged forms — make the user aware
 
 Accept these, but tell the user they are **not recommended** and why:
 
-1. **Hard-to-parse formats** (e.g. Google Sheets, `.xlsx`): content may be lost or misread when parsed. Recommend a text-based form instead (e.g. `.md`, `.txt`, or pasted content).
-2. **Links that need permission to read** — any link that requires login or access rights, including but not limited to Jira, Google Docs/Drive, Slack: proceed **only if** you have access **and** are confident you parsed the content correctly. Otherwise, stop and ask the user to provide the content in another form — never guess what the link contains.
+1. **Hard-to-parse formats** — any spreadsheet or binary format, including but not limited to Google Sheets, `.xlsx`: content may be lost or misread when parsed. Recommend a text-based form instead (e.g. `.md`, `.txt`, or pasted content).
+2. **Links that need permission to read** — any link that requires login or access rights (except Jira, see above), including but not limited to Google Docs/Drive, Slack: proceed **only if** you have access **and** are confident you parsed the content correctly. Otherwise, stop and ask the user to provide the content in another form — never guess what the link contains.
 3. **Figma links**: same rules as (2). There is currently no substitute for Figma as the UI source, so when you cannot read the link, guide the user on how to make it readable by an AI agent:
    - Prefer options for Claude; mention ChatGPT/Codex options only if available.
    - Check which tools are actually available in the current environment (e.g. a Figma MCP server or connector) before suggesting anything; do not suggest setup steps you cannot verify.
