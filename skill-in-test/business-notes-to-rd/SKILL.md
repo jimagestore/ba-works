@@ -1,6 +1,6 @@
 ---
 name: business-notes-to-rd
-description: Convert business notes into a detailed requirement document (RD / BA doc). Business notes are requirements from roles upstream of the BA in the product development process — also called PO requirements, high-level requirements, marketing requirements, or similar. Use when the user wants to turn such notes into a requirement document, RD, BA doc, BA document, or similar.
+description: Convert business notes into a detailed requirement document (RD). Business notes are any requirements from roles upstream of the BA in the product development process (e.g. PO requirements, high-level requirements, marketing requirements). The RD is the detailed document a BA produces from them (e.g. BA doc, BA document). These names are examples, not an exhaustive list — match by meaning, in any language. Use when the user wants to turn upstream requirements into a detailed BA-level requirement document.
 allowed-tools: Bash(gh api user --jq .login)
 ---
 
@@ -12,8 +12,10 @@ allowed-tools: Bash(gh api user --jq .login)
 
 Convert **business notes** into a **detailed requirement document**.
 
-- **Business notes:** requirements written by roles upstream of the BA in the product development process. Also called PO requirements, high-level requirements, marketing requirements, or similar terms.
-- **Requirement document (RD):** the detailed output document. Also called BA doc, BA document, or similar terms.
+- **Business notes:** requirements written by roles upstream of the BA in the product development process. Examples: PO requirements, high-level requirements, marketing requirements.
+- **Requirement document (RD):** the detailed output document. Examples: BA doc, BA document.
+
+The names above are **examples, not an exhaustive list**. Recognize both concepts by their meaning — who wrote it and where it sits in the product development process — not by the exact name. Other names, in any language, that mean the same thing count too.
 
 ## Role
 
