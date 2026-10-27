@@ -55,6 +55,10 @@ Business notes can come in many forms, including but not limited to:
 - Google links: Drive, Docs, Sheets, Slides, …
 - Slack conversation links
 
+### Jira ticket — always required
+
+Every RD must be linked to a Jira ticket. If the input does not include one (content, link, or issue key), ask the user to provide the Jira ticket this work belongs to before writing the RD.
+
 ### Jira — solve, don't warn
 
 Jira links and issue keys need permission to read, but do **not** treat them as discouraged. Jira can be connected to Claude easily via a Jira MCP server or connector, so it is almost always solvable. Handle Jira **before** any other permission-gated source, including Figma:
@@ -79,10 +83,11 @@ Accept these, but tell the user they are **not recommended** and why:
 
 ### Requirement code and title
 
-The RD title line in the template holds the requirement code(s) and the title (`# [PROJ_CODE] [ISSUE_CODE] This is requirements title`).
+The RD title line in the template holds the requirement codes and the title: `# [JIRA_NUM] [BA_NUM] This is requirements title`.
 
-- **Requirement code(s):** ask the user. Never invent them.
-- **Title:** if the input comes from Jira, use the Jira ticket's title. Otherwise, you may name it yourself — mark it `[BA-defined]` like any other content not derived from the business notes.
+- **`[JIRA_NUM]` (required):** the Jira issue key, taken from the Jira ticket (e.g. `ABC-123`).
+- **`[BA_NUM]` (optional):** ask the user, and tell them it can be left blank. Never invent it. If left blank, omit it.
+- **Title:** prefer the Jira ticket's title. Otherwise, you may name it yourself. The title needs no `[BA-defined]` marker.
 
 ### Following the template
 
