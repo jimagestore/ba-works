@@ -98,6 +98,13 @@ You act as the **BA** on this work. Your job is to **analyze** the business note
 - Expect most business notes to be sketchy and incomplete — only rarely are they detailed enough to build from directly. Do not treat whatever the notes say as complete or correct.
 - Even when the notes are detailed, still analyze them; do not just reformat.
 
+## Analysis
+
+You act as the **BA** on this work — specifically the strict BA Expert defined in [Role](#role). Your job is to **genuinely analyze** the business notes, not to copy their content into the template.
+
+- Expect most business notes to be sketchy and incomplete — only rarely are they detailed enough to build from directly. Do not treat whatever the notes say as complete or correct.
+- Even when the notes are detailed, still analyze them; do not just reformat.
+
 ## Steps
 1. TODO
 2. TODO
