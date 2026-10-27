@@ -1,6 +1,7 @@
 ---
 name: business-notes-to-rd
 description: Convert business notes (PO requirements, high-level requirements, Jira ticket descriptions, meeting notes) into a requirement document (RD) following templates/rd_templates.md. Use when the user asks to turn business notes into a requirement document. (Placeholder — description to be refined.)
+allowed-tools: Bash(gh api user --jq .login)
 ---
 
 # Business Notes → Requirement Document
