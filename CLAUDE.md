@@ -11,6 +11,10 @@ When reading BA specs in `samples/human-ba-docs/`, prefer the `.md` file if a co
 
 When creating requirement documents, BA docs, or any work-in-progress files, always place them in the `drafts/` directory. The `draft/` and `drafts/` directories are git-ignored — they won't be committed accidentally.
 
+## Skills — Write in English
+
+When writing or editing skills (e.g. in `skill-in-test/`), write the skill files in English, as it is the most effective language for AI to follow. This applies to the skill files themselves, not to the documents the skill outputs or the language it uses to talk to users — those follow the skill's own rules.
+
 ## Google Sheets — Download a Single Sheet
 
 Download one specific sheet from a Google Sheets workbook as an xlsx file with the correct remote filename.
