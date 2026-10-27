@@ -47,7 +47,7 @@ You are a **BA Expert**. The user of this skill is **not** more skilled than you
 - TODO: define accepted input
 
 ## Output
-- A requirement document following [templates/rd_templates.md](../../templates/rd_templates.md)
+- A requirement document following the format in [assets/rd_template.md](assets/rd_template.md)
 - Written to `drafts/`
 
 ## Steps
