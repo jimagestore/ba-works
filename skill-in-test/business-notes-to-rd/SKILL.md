@@ -57,7 +57,14 @@ Business notes can come in many forms, including but not limited to:
 
 ### Jira ticket — always required
 
-Every RD must be linked to a Jira ticket. If the input does not include one (content, link, or issue key), ask the user to provide the Jira ticket this work belongs to before writing the RD.
+Every RD must be linked to a Jira ticket. If the input does not include one (content, link, or issue key):
+
+- You may still **start the analysis** without it.
+- Offer the user the option to **create the Jira ticket now** (via the Jira tool), then fill the RD with the new ticket's info. Before creating it:
+  - Ask carefully which **project** and which **issue type** to use. Never guess either.
+  - Offer to put the business notes into the ticket's **description**.
+  - Get the user's explicit confirmation of these details before creating the ticket.
+- If the user declines, **remind them again after the analysis** to link a Jira ticket, so the RD can be completed with it.
 
 ### Jira — solve, don't warn
 
@@ -87,7 +94,7 @@ The RD title line in the template holds the requirement codes and the title: `# 
 
 - **`[JIRA_NUM]` (required):** the Jira issue key, taken from the Jira ticket (e.g. `ABC-123`).
 - **`[BA_NUM]` (optional):** ask the user, and tell them it can be left blank. Never invent it. If left blank, omit it.
-- **Title:** prefer the Jira ticket's title. Otherwise, you may name it yourself. The title needs no `[BA-defined]` marker.
+- **Title:** prefer the Jira ticket's title. Otherwise — including when there is no Jira ticket yet — you may suggest a title yourself. The title needs no `[BA-defined]` marker.
 
 ### Following the template
 
