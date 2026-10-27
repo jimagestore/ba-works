@@ -76,7 +76,7 @@ Accept these, but tell the user they are **not recommended** and why:
 
 ## Output
 - A requirement document following the format in [assets/rd_template.md](assets/rd_template.md)
-- Written to `drafts/`
+- **Save location:** out of this skill's scope. Use the location the user specifies; if none is specified, choose a suitable one yourself (e.g. following the project's own conventions).
 
 ## Steps
 1. TODO
