@@ -91,6 +91,13 @@ Follow the template **100%** by default. To avoid rigidity, apply these exceptio
 - **All other sections and fields** (no display condition in the template): **keep** them. If there is genuinely nothing to state, write `N/A`; for a whole top-level section, write `N/A — <reason>`.
 - **Applicable but information is missing or unclear**: never remove it and never write `N/A`. Mark it clearly as an open item that must be confirmed with the PO.
 
+## Analysis
+
+You act as the **BA** on this work. Your job is to **analyze** the business notes, not to copy their content into the template.
+
+- Expect most business notes to be sketchy and incomplete — only rarely are they detailed enough to build from directly. Do not treat whatever the notes say as complete or correct.
+- Even when the notes are detailed, still analyze them; do not just reformat.
+
 ## Steps
 1. TODO
 2. TODO
