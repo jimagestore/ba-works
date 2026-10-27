@@ -101,6 +101,10 @@ The RD title line in the template holds the requirement codes and the title: `# 
 - **`[BA_NUM]` (optional):** ask the user, and tell them it can be left blank. Never invent it. If left blank, omit it.
 - **Title:** prefer the Jira ticket's title. Otherwise — including when there is no Jira ticket yet — you may suggest a title yourself. The title needs no `[BA-defined]` marker.
 
+### UI element types
+
+Name UI element types (and their properties, e.g. button variants) after **Shopify Polaris** components. When a Polaris name differs a lot from the common term, add the common term in parentheses — e.g. `ChoiceList (radio group / checkbox group)`.
+
 ### Following the template
 
 Follow the template **100%** by default. To avoid rigidity, apply these exceptions:
